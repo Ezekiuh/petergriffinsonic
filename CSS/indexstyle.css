@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  padding: 1rem;
+}
+
+.title {
+  color: white;
+  font-family: monospace;
+  font-size: 14pt;
+  text-align: center;
+  padding: 0;
+}
+
+p {
+  color: white;
+  font-family: monospace;
+  font-size: 12pt;
+  text-align: left;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-indent: 3%;
+}
+a {
+  text-decoration: underline dotted 1px;
+  color: white;
+}
+a:hover {
+  color: yellow;
+}
+
+hr {
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px dashed white;
+    border-top: 1px dashed white;
+    color: white;
+    overflow: visible;
+    text-align: center;
+    padding-top: 1px;
+}
+pre {
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
