@@ -20,26 +20,45 @@ p {
   margin-right: 25%;
   text-indent: 3%;
 }
+
 a {
   text-decoration: underline dotted 1px;
   color: white;
 }
+
 a:hover {
   color: yellow;
 }
 
 hr {
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px dashed white;
-    border-top: 1px dashed white;
-    color: white;
-    overflow: visible;
-    text-align: center;
-    padding-top: 1px;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px dashed white;
+  border-top: 1px dashed white;
+  color: white;
+  overflow: visible;
+  text-align: center;
+  padding-top: 1px;
 }
+
 pre {
   color: white;
   font-family: monospace;
   text-align: center;
+}
+
+button {
+  text-decoration: underline dotted 1px;
+  color:white;
+  margin: 0 auto;
+  display: block;
+  font-family: monospace;
+  background-color: transparent;
+  font-size: 12pt;
+}
+
+button:hover {
+  text-decoration: underline dotted 1px;
+  color: yellow;
+  font-size: 12pt;
 }
